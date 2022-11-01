@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d545d4b5-0c9e-418f-ae61-3090b2db8a3d" name="Changes" comment=" first commit-gol bis">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/Quote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework13/QuoteService.java" afterDir="false" />
+    <list default="true" id="d545d4b5-0c9e-418f-ae61-3090b2db8a3d" name="Changes" comment=" commit coursecode14">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework14/ex1/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework14/ex1/TDDTemperature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyFirstAnnotation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReflectionExercise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +41,17 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WON8/13-/maven-13-/pom.xml&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework13.Main" />
+  <component name="RunManager" selected="JUnit.TDDTemperature">
+    <configuration name="Temperature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework14.ex1.Temperature" />
       <module name="CourseCode2bis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework13.*" />
+          <option name="PATTERN" value="homework14.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,9 +59,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseCode2bis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CourseCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CourseCode" />
+      <option name="MAIN_CLASS_NAME" value="CourseCode.FirstTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TDDTemperature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseCode2bis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework14.ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework14.ex1" />
+      <option name="MAIN_CLASS_NAME" value="homework14.ex1.TDDTemperature" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TDDTemperature" />
+        <item itemvalue="Application.Temperature" />
+        <item itemvalue="JUnit.FirstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666207945230</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" commit coursecode14">
+      <created>1667307333087</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667307333088</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +163,7 @@
     <MESSAGE value="First commit Maven" />
     <MESSAGE value=" commit Maven- curs 13-coursecode" />
     <MESSAGE value=" commit Maven- curs 13-coursecode-bis" />
-    <option name="LAST_COMMIT_MESSAGE" value=" commit Maven- curs 13-coursecode-bis" />
+    <MESSAGE value=" commit coursecode14" />
+    <option name="LAST_COMMIT_MESSAGE" value=" commit coursecode14" />
   </component>
 </project>
