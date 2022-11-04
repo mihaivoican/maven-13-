@@ -2,7 +2,7 @@ package homework14Prof;
 
 import lombok.Data;
 
-@Data //rezolva multe adnotari= setter+getter+allargconstructor...
+@Data //rezolva multe adnotari= setter+getter+allargconstructor, toString ......
 public class Person {
     private Integer id;
     private String name;
