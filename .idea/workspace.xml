@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d545d4b5-0c9e-418f-ae61-3090b2db8a3d" name="Changes" comment="curs15 -homework14bis">
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/NumberBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/OldBox.java" afterDir="false" />
+    <list default="true" id="d545d4b5-0c9e-418f-ae61-3090b2db8a3d" name="Changes" comment="curs15 -generics">
+      <change afterPath="$PROJECT_DIR$/src/main/java/optional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/InfiniteLoopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/RecursionExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +45,52 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.RecursionExercises">
+    <configuration name="InfiniteLoopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.InfiniteLoopMain" />
+      <module name="CourseCode2bis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.Main" />
       <module name="CourseCode2bis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.RecursionExercises" />
+      <module name="CourseCode2bis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="optional.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="optional.Main" />
+      <module name="CourseCode2bis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,6 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionExercises" />
+        <item itemvalue="Application.InfiniteLoopMain" />
+        <item itemvalue="Application.optional.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PersonTest" />
       </list>
@@ -112,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667545802571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="curs15 -generics">
+      <created>1667562392681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667562392681</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +178,23 @@
     <MESSAGE value="First commit Maven" />
     <MESSAGE value="curs15 -homework14" />
     <MESSAGE value="curs15 -homework14bis" />
-    <option name="LAST_COMMIT_MESSAGE" value="curs15 -homework14bis" />
+    <MESSAGE value="curs15 -generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs15 -generics" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/optional/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/optional/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
