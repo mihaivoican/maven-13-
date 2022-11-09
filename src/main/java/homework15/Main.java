@@ -10,7 +10,7 @@ public class Main {
         System.out.println(sumEvenNumbers(6));
         System.out.println(sumEvenNumbers(7));
 
-        System.out.println(isPalindrom("ana"));
+        System.out.println(isPalindrom("anam"));
 
     }
 
@@ -40,12 +40,13 @@ public class Main {
         if (termen == null) {
             return false;
         }
+        //exit condition
         if (termen.length() == 1 || termen.length() == 0) {
             return true;
         } else {
-            if (termen.substring(0,1).equals(termen.substring(termen.length()-2,1))){
+            if (termen.charAt(0) == termen.charAt(termen.length()-1)){
                 //rezultat=true;
-                return isPalindrom(termen.substring(1,termen.length()-3));
+                return isPalindrom(termen.substring(1,termen.length()-1));
             }else {
                 return false;
             }
