@@ -1,5 +1,6 @@
 package homework16;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -9,7 +10,7 @@ public class PersonService {
                 new Person("Alina","Ionescu",23,"Cluj"),
                 new Person("Mihai","Georgescu",45,"Husi"),
                 new Person("Vlad","Zamfirescu",16,"Oradea"),
-                new Person("Cornel","Tudorache",65,"Bucuresti")
+                new Person("Mihai","Tudorache",65,"Bucuresti")
         );
 
 
@@ -47,9 +48,20 @@ public class PersonService {
         System.out.println(personfAnAge);
 
 //- list all persons having first name starting with A
-        List<Person> persStartWithA = persons.stream().filter(p->p.firstName().startsWith("A")).toList();
+        List<Person> persStartWithA = persons.stream().filter(p->p.firstName().startsWith("A"))
+                .toList();
         System.out.println(persStartWithA);
 
+// list all first names UNIQUELY
+        List<String> firstNameUniquely = persons.stream().map(Person::firstName)
+                .distinct()
+                .toList();
+        System.out.println(firstNameUniquely);
 
+        //- sort the persons by first name
+        List<Person> persSortedByName =persons.stream().sorted(Comparator.comparing(Person::firstName)).toList();
+        System.out.println(persSortedByName);
     }
+
+
 }
