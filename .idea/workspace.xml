@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d545d4b5-0c9e-418f-ae61-3090b2db8a3d" name="Changes" comment="homework16">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework16Prof/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework16Prof/PersonService.java" afterDir="false" />
+    <list default="true" id="d545d4b5-0c9e-418f-ae61-3090b2db8a3d" name="Changes" comment="curs16 -CourseCode-LambdaExpressions-programare furnctionala-method references">
+      <change afterPath="$PROJECT_DIR$/files/countries2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework17/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework17/CountryReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework17/CountryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework17/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +47,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/won8/CourseCode2bis/pom.xml"
+    "last_opened_file_path": "C:/WON8/13-/maven-13-/pom.xml"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PersonService">
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework15prof.Homework" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WON8\13-\maven-13-" />
+      <recent name="C:\WON8\13-\maven-13-\src\files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional.LambdaExpressions" />
       <module name="CourseCode2bis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework15prof.*" />
+          <option name="PATTERN" value="functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functional.LambdaExpressions" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework17.Main" />
       <module name="CourseCode2bis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functional.*" />
+          <option name="PATTERN" value="homework17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PersonService" />
         <item itemvalue="Application.StreamExercises" />
         <item itemvalue="Application.LambdaExpressions" />
         <item itemvalue="Application.MethodReferences" />
-        <item itemvalue="Application.Homework" />
       </list>
     </recent_temporary>
   </component>
@@ -139,28 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668432230939</updated>
     </task>
-    <task id="LOCAL-00002" summary="curs 16-coursecode-- streams">
-      <created>1668515213585</created>
+    <task id="LOCAL-00002" summary="curs16 -CourseCode-LambdaExpressions-programare furnctionala-method references">
+      <created>1668506684468</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1668515213585</updated>
+      <updated>1668506684468</updated>
     </task>
-    <task id="LOCAL-00003" summary="homework16">
-      <created>1668521380899</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1668521380899</updated>
-    </task>
-    <task id="LOCAL-00004" summary="homework16">
-      <created>1668522418731</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1668522418731</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,8 +171,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="curs15 -homework bis" />
-    <MESSAGE value="curs 16-coursecode-- streams" />
-    <MESSAGE value="homework16" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework16" />
+    <MESSAGE value="curs16 -CourseCode-LambdaExpressions-programare furnctionala-method references" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs16 -CourseCode-LambdaExpressions-programare furnctionala-method references" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/homework17/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
