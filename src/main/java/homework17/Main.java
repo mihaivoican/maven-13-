@@ -38,7 +38,7 @@ public class Main {
         System.out.println(serviceTari.getCountryWithPopulationGreaterThan("Europe",20000000));
 
         //tari vecine cu tara1, dar nu si cu tara2
-        System.out.println(serviceTari.getCountryWithNeighbourWithoutNeighbour("ROM",null));
+        System.out.println(serviceTari.getCountryWithNeighbourWithoutNeighbour("ROU","HUN"));
 
 
 

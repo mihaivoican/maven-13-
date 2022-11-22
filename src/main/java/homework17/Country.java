@@ -6,4 +6,5 @@ public record Country(int id,String name, String capital, double population, dou
     //citim tarile din fisier
     //name|capital|population|area|continent|neighbour1~neighbour2
 
+
 }
